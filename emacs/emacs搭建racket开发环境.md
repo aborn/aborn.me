@@ -2,7 +2,7 @@
 emacs下搭建开发racket的环境，笔者之前用过以下两种模式：[geiser](http://www.nongnu.org/geiser/)和[racket-mode](https://github.com/greghendershott/racket-mode)。相对而言，后一种方式要显得简单，本文主要介绍后一种方式环境的搭建(注：笔者是mac系统，其他系统类似)：
 
 ## 下载和安装racket
-首页得下载racket的编译和运行环境，下载地址为http://download.racket-lang.org/。笔者是mac系统，下载好.dmg文件后直接安装就好，非常方便。
+首先得下载racket的编译和运行环境，下载地址为http://download.racket-lang.org/。笔者是mac系统，下载好.dmg文件后直接安装就好，非常方便。
 
 ## 执行路径
 安装好后，先确保racket的可执行文件在你的$PATH里(window下叫环境变量)，在terminal下，运行如下命令，如果出现如下结果表示安装racket成功。
