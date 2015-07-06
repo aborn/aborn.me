@@ -43,7 +43,7 @@ M-x package-install <ret> racket-mode
           (lambda ()
             (define-key racket-mode-map (kbd "C-x C-j") 'racket-run)))
 ```
-注意：最后一行是绑定执行快捷键。
+注意：最后一行是绑定执行快捷键。 
 
 ## 执行
 下面是一个简单的racket程序，把它保存成hello.rkt文件
