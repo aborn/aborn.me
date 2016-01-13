@@ -1,4 +1,4 @@
-#emacs 搭建racket开发环境
+# emacs 搭建racket开发环境
 emacs下搭建开发racket的环境，笔者之前用过以下两种模式：[geiser](http://www.nongnu.org/geiser/)和[racket-mode](https://github.com/greghendershott/racket-mode)。相对而言，后一种方式要显得简单，本文主要介绍后一种方式环境的搭建(注：笔者是mac系统，其他系统类似)：
 
 ## 下载和安装racket
@@ -61,5 +61,5 @@ M-x package-install <ret> racket-mode
 
 执行这个程序，采用 M-x racket-run命令
 如下图：
-![](../images/helloracket.png "hello racket")
+![](images/helloracket.png "hello racket")
 
