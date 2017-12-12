@@ -22,5 +22,5 @@
 20. 《邓小平时代》 傅高义                   2017-11-25  
 21. 《领导力21法则》 John C. Maxwell       2017-11-30  
 22. 《人件》Tom DeMarco Timothy Lister    2017-12-07  
-
+23. 《北回归线》 Henry Miller             2017-12-12  
 
