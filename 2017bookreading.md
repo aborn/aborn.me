@@ -23,4 +23,4 @@
 21. 《领导力21法则》 John C. Maxwell       2017-11-30  
 22. 《人件》Tom DeMarco Timothy Lister    2017-12-07  
 23. 《北回归线》 Henry Miller             2017-12-12  
-
+24. 《为什么是中国》 任志刚                 2017-12-21  
