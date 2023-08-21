@@ -14,7 +14,7 @@ spacemacs/helm-project-do-ag M-m s a p
 aborn/open-all-recent-files
 
 
-4、打开当前所在的url连接
+4、打开当前所在的url连接afe
 spacemacs/avy-open-url M-m j U
 
 5、最近打开过的文件列表
