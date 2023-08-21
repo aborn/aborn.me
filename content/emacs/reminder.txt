@@ -1,0 +1,18 @@
+一些常用的经常忘记的命令：
+
+find-file-in-project-by-selected
+
+1、打开所以之前打开过的文件
+aborn/open-all-recent-files
+
+
+2、打开当前所在的url连接
+spacemacs/avy-open-url M-m j U
+
+
+3、通过ripgrep进行文本内容搜索
+spacemacs/helm-project-do-ag M-m s a p
+
+
+4、最近打开过的文件列表
+recentf-open-files
