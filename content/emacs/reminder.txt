@@ -23,3 +23,17 @@ recentf-open-files
 
 ---
 magit-commit的命令失效，需要magit-commit-create替换
+
+
+统计git的贡献情况：
+https://stackoverflow.com/questions/42715785/how-do-i-show-statistics-for-authors-contributions-in-git
+添加到path里
+export PATH=$PATH:/usr/local/go/bin:/Users/aborn/github/CodeSnippet/git
+在Mac下还需要安装(awk替换成gawk)
+brew install gawk
+命令如下：
+git-user-stats.sh --since="1 week ago"
+https://stackoverflow.com/questions/1828874/generating-statistics-from-git-repository?rq=1
+
+打开所有历史文件
+https://emacs.stackexchange.com/questions/52127/how-to-open-all-the-opened-files-from-a-previous-session
