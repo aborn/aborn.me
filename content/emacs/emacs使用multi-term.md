@@ -1,6 +1,6 @@
-# emacs 使用multi-term
+# Emacs下使用multi-term
 
-emacs里的[multi-term](http://www.emacswiki.org/emacs/MultiTerm)相当于mac下的iterm，是emacs下非常好用的terminal。
+Emacs里的[multi-term](http://www.emacswiki.org/emacs/MultiTerm)相当于mac下的iterm，是emacs下非常好用的terminal。
 
 ## 载入multi-term.el文件
 emacs使用multi-term作为terminal，首先要将[multi-term.el](http://www.emacswiki.org/emacs/download/multi-term.el)文件放到你emacs的load-path里。
@@ -37,7 +37,7 @@ export LC_ALL="en_US.UTF-8"
 ## 解决几个烦人的问题
 
 **1.** 我开始设置的是zsh，我发现，当我用$cd$命令改变工作目录的时候，emacs里的default-directory这个变量没有改变，使得C-x C-f调用打开文件时目录不是当前工作目录？
-[解决方法](http://stackoverflow.com/questions/367442/getting-emacs-ansi-term-and-zsh-to-play-nicely)将下列代码放到zsh的配置文件 $~.zshrc$里，使得emacs能跟踪路径的改变，[参考1](https://snarfed.org/why_i_run_shells_inside_emacs)，[参考2](http://emacs.stackexchange.com/questions/5589/automatically-update-default-directory-when-pwd-changes-in-shell-mode-and-term-m)。
+[解决方法](http://stackoverflow.com/questions/367442/getting-emacs-ansi-term-and-zsh-to-play-nicely)将下列代码放到zsh的配置文件 $~.zshrc$里，使得emacs能跟踪路径的改变，[参考1](https://snarfed.org/why_i_run_shells_inside_emacs)，[参考2](http://emacs.stackexchange.com/questions/5589/automatically-update-default-directory-when-pwd-changes-in-shell-mode-and-term-m)。 [参考3](https://stackoverflow.com/questions/3508387/how-can-i-have-term-el-ansi-term-track-directories-if-using-anyhting-other-tha)
 ```shell
 if [ -n "$INSIDE_EMACS" ]; then
     chpwd() { print -P "\033AnSiTc %d" }
@@ -46,7 +46,7 @@ if [ -n "$INSIDE_EMACS" ]; then
 fi
 ```
 
-**2.** 我希望当光标没处于最后一行时，"C-a"的作用是将光标移动到行首，当光标处于最后一行时，我希望"C-a"的作用是将光标移动到这行命令的开始处。解决方法：将下列 ab/move-beginning-of-line 绑定到快捷键"C-a"即可。
+**2.** 我希望当光标未处于最后一行时，"C-a"的作用是将光标移动到行首，当光标处于最后一行时，我希望"C-a"的作用是将光标移动到这行命令的开始处。解决方法：将下列 ab/move-beginning-of-line 绑定到快捷键"C-a"即可。
 
 ```
 ;; 当处于最后一行时 "C-a" 将光标移动到 terminal开始处而不是这个行的头
