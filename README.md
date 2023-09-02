@@ -7,17 +7,17 @@
 ## src
 笔记内容目录，以md格式为主
 
+### emacs
+主要记录一些emacs相关的文章
+
+### java
+Java相关的文章
+
 ## 本地启动
-静态内容
+需要先安装**mdbook**静态内容
 ```sh
 mdbook serve --open
 ```
-
-## emacs
-主要记录一些emacs相关的文章
-
-## images
-图片
 
 ## author
 Aborn Jiang

@@ -8,6 +8,7 @@
   - [Emacs的书签功能](./emacs/bookmarks.md)
 - [Java](./java/index.md)
   - [ehcache调用](./java/ehcache调用.md)
+- [Rust](./rust/index.md)
 - [阅读清单](./ReadingList/index.md)
   - [2023](./ReadingList/2023.md)
   - [2019](./ReadingList/2019.md)
