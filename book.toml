@@ -1,0 +1,6 @@
+[book]
+authors = ["aborn"]
+language = "en"
+multilingual = false
+src = "src"
+title = "齐格Insight"

@@ -1,11 +1,1 @@
-/.settings
-/target
-/.project
-/.buildpath
-/.classpath
-/.idea
-out/
-*.iml
-*~
-images/.DS_Store
-.DS_Store
+book
