@@ -4,3 +4,9 @@ language = "en"
 multilingual = false
 src = "src"
 title = "齐格Insight"
+
+[output.html]
+mathjax-support = true
+site-url = "/aborn.me/"
+git-repository-url = "https://github.com/aborn/aborn.me"
+line-numbers = true
