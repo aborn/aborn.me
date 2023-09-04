@@ -35,7 +35,8 @@ M-x package-install <ret> racket-mode
 ```
 
 ## emacs配置
-```
+Emacs配置如下：
+```elisp
 (require 'racket-mode)
 (setq racket-racket-program "racket")
 (setq racket-raco-program "raco")
@@ -43,18 +44,19 @@ M-x package-install <ret> racket-mode
           (lambda ()
             (define-key racket-mode-map (kbd "C-x C-j") 'racket-run)))
 ```
-注意：最后一行是绑定执行快捷键。 
+注意：最后一行是绑定执行快捷键。
 
 ## 执行
 下面是一个简单的racket程序，把它保存成hello.rkt文件
-```
+
+```elisp
 #! /usr/bin/env racket
 
 #lang racket
 
 (define (extract str)
   (substring str 4 7))
- 
+
 (extract "the cat out of the bag")
 
 ```
@@ -62,4 +64,3 @@ M-x package-install <ret> racket-mode
 执行这个程序，采用 M-x racket-run命令
 如下图：
 ![](images/helloracket.png "hello racket")
-

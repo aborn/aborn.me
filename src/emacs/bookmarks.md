@@ -37,7 +37,7 @@ emacs的书签用于记录你在文件中的阅读位置。它有点类似寄存
 
 通过helm-bookmarks命令来查找并跳转书签如下图：
 
-![bookmark查找与跳转](http://upload-images.jianshu.io/upload_images/297930-bb078f46e1d4dca4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![bookmark查找与跳转](./images/bookmarks.webp)
 
 ### 修改默认排序
 
