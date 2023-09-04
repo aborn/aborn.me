@@ -1,29 +1,26 @@
-一些常用的经常忘记的命令：
+# 一些常用的经常忘记的命令
 
-## 1、文件查找
+## 文件查找
 find-file-in-project-by-selected
 emacs配置见如下，需要设置变量 ffip-use-rust-fd 为t
 https://github.com/sharkdp/fd
 mac下需要先安装fd
 brew install fd
 
-## 2、通过ripgrep进行文本内容搜索
+## 通过ripgrep进行文本内容搜索
 spacemacs/helm-project-do-ag M-m s a p
 
-## 3、打开所以之前打开过的文件
+## 打开所以之前打开过的文件
 aborn/open-all-recent-files
 
-
-## 4、打开当前所在的url连接
+## 打开当前所在的url连接
 spacemacs/avy-open-url M-m j U
 
-## 5、最近打开过的文件列表
+## 最近打开过的文件列表
 recentf-open-files
-
 
 ---
 magit-commit的命令失效，需要magit-commit-create替换
-
 
 统计git的贡献情况：
 https://stackoverflow.com/questions/42715785/how-do-i-show-statistics-for-authors-contributions-in-git

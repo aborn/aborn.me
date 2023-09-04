@@ -13,19 +13,20 @@ rg -i "bixin”  命令行里关键字搜索
 
 mac下需要先安装：
 
-```shell
+```she
 brew install ripgrep
 ```
-
 
 ## fd-find 按文件名进行搜索
 https://lib.rs/crates/fd-find
 
 mac下需要先安装fd：
 
-```shell
+```sh
 brew install fd
 ```
 
 命令行下：
-fd "优惠券"
+```sh
+fd "测试"
+```
