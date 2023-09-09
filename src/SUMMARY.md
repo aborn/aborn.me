@@ -9,6 +9,7 @@
   - [Emacs搭建racket开发环境](./emacs/Emacs搭建racket开发环境.md)
 - [Java](./java/index.md)
   - [ehcache调用](./java/ehcache调用.md)
+  - [Java的事务](./java/Java事务.md)
 - [Rust](./rust/index.md)
 - [思考](./minds/index.md)
   - [语言与生态](./minds/语言与生态.md)
