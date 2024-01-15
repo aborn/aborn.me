@@ -14,6 +14,7 @@
 - [思考](./minds/index.md)
   - [语言与生态](./minds/语言与生态.md)
 - [阅读清单](./ReadingList/index.md)
+  - [2024](./ReadingList/2024.md)
   - [2023](./ReadingList/2023.md)
   - [2022](./ReadingList/2022.md)
   - [2021](./ReadingList/2021.md)
