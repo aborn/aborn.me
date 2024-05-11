@@ -2,7 +2,7 @@
 
 ## 文件查找
 find-file-in-project-by-selected
-emacs配置见如下，需要设置变量 ffip-use-rust-fd 为t
+emacs配置见如下，需要设置变量 ffip-use-rust-fd 为t (C-v ffip-use-rust-fd)
 https://github.com/sharkdp/fd
 mac下需要先安装fd
 brew install fd
