@@ -19,6 +19,10 @@ spacemacs/avy-open-url M-m j U
 ## 最近打开过的文件列表
 recentf-open-files
 
+## magit相关
+```magit-diff-unstaged```表示全项目的diff  
+```magit-diff``` 默认表示当前文件的diff
+
 ---
 magit-commit的命令失效，需要magit-commit-create替换
 
